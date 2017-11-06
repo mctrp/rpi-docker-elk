@@ -21,7 +21,7 @@ sudo apt-get update
 sudo apt-get install -y docker-ce
 
 #Installing pip
-sudo apt install python-software-properties
+sudo apt-get install -y python-software-properties
 
 #Installing Docker compose
 sudo pip install docker-compose
