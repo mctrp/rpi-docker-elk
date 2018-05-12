@@ -6,7 +6,7 @@ sudo apt-get install -y \
      apt-transport-https \
      ca-certificates \
      curl \
-     python-software-properties
+     software-properties-common
 
 #Adding Docker's official GPG key
 curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
@@ -21,7 +21,7 @@ sudo apt-get update
 sudo apt-get install -y docker-ce
 
 #Installing pip
-sudo apt-get install -y python-software-properties
+sudo apt-get install -y software-properties-common python-pip python3-pip
 
 #Installing Docker compose
 sudo pip install docker-compose
