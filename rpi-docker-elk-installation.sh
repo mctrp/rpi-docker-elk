@@ -27,4 +27,4 @@ sudo apt-get install -y software-properties-common python-pip python3-pip
 sudo pip install docker-compose
 
 #Starting ELK stack
-docker-compose up
+sudo docker-compose up
